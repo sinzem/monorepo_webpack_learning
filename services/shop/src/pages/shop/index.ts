@@ -1,0 +1,1 @@
+export {LazyShop as Shop} from './Shop.lazy'; /* (меняем имя для удобства подключения к навигации) */

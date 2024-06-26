@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+    //   "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "ESNext",
+      "target": "es5",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+    //   "baseUrl": ".",
+    //   "paths": {
+    //     "@/*": ["./src/*"]
+    //   },
+      "resolveJsonModule": true
+    },
+    "ts-node": {
+      "compilerOptions": {
+        "module": "CommonJS"
+      }
+    }
+  }
+  /* (общая конфигурация для микрофронтов(кроме закомментированного), в каждом микрофронте создаем отдельную и пдоключаем эту через наследование(extends)) */
